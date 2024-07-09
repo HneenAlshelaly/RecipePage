@@ -62,8 +62,8 @@ To see how you can add code snippets, see below:
 <h1>Some HTML code I'm proud of</h1>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.container .card .PreparationTime ul>li::marker{
+    color: var(--DarkRaspberry);
 }
 ```
 ```js

@@ -1,0 +1,97 @@
+
+:root {
+/* Primary */
+    --Nutmeg: hsl(14, 45%, 36%);
+    --DarkRaspberry: hsl(332, 51%, 32%);
+/* Neutral */
+    --White: hsl(0, 0%, 100%);
+    --RoseWhite: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --LightGrey: hsl(30, 18%, 87%);
+    --WengeBrown: hsl(30, 10%, 34%);
+    --DarkCharcoal: hsl(24, 5%, 18%);
+
+    --Mobile: 375px;
+    --Desktop: 1440px;
+
+}
+
+@font-face {
+    font-family: 'Young Serif';
+    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf');
+
+}
+
+@font-face {
+    font-family: 'outfit';
+    src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+
+}
+
+body{
+    background-color: var(--Eggshell) !important;
+    width: var(--Desktop);
+    font-size: 16px;
+    font-family: 'outfit' !important;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.container .card{
+    margin-top: 8%;
+    
+}
+
+.container .card .card-body{
+    margin: 1.5rem;
+}
+.container .card .FoodImg{
+    border-radius: .5rem;
+    margin: 2rem;
+
+}
+
+.container .card h2{
+    font-family: 'Young Serif';
+    font-size: 2.55rem;
+    color: var(--DarkCharcoal);
+    /* margin-top: 1rem; */
+}
+
+.container .card p{
+    font-family: 'outfit';
+    font-size: 1rem;
+    color: var(--WengeBrown);
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
+}
+
+.container .card .PreparationTime{
+    background-color: var(--RoseWhite);
+    border-radius: .5rem;
+    padding: 1rem;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    color: var(--WengeBrown);
+}
+
+.container .card .PreparationTime h5{
+    color: var(--DarkRaspberry) ;
+    font-size: 1.3rem;
+}
+
+.container .card .PreparationTime ul>li span{
+    font-weight:700;
+}
+
+.container .card .PreparationTime ul>li{
+    padding:.5rem 1.8rem  0rem;
+    margin-left: -1rem;
+}
+
+.container .card .PreparationTime ul>li::marker{
+    color: var(--DarkRaspberry);
+}
